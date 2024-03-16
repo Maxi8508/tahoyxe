@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taho Shop</title>
+    <link rel="stylesheet" href="APp.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="phone-number">
+        <img src="src/phone-icon.png" alt="Phone Icon">
+        <span>+1 306 881 6133</span>
+    </div>
+    <button id="cartBtn">Cart (0)</button>
+    <img src="src/logo.png" alt="Taho YXE Logo" class="logo">
+    
+  
+    <div class="products-container"></div>
+</div>
+
+<!-- Cart Modal -->
+<div id="cartModal" class="modal">
+    <div class="modal-content">
+        <span class="close-cart">&times;</span>
+        <h2>Your Cart</h2>
+        <div class="cart-container"></div>
+        <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
+    </div>
+</div>
+
+<!-- Overlay -->
+<div id="cartOverlay" class="overlay"></div>
+
+<script src="App.js"></script>
+</body>
+</html>
