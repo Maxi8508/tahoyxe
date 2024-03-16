@@ -1,8 +1,8 @@
 // Sample data for products
 const products = [
-    { id: 1, name: 'Strawberry Taho', price: 20, image: 'src/images.jpg' },
-    { id: 2, name: 'Mango Taho', price: 20, image: 'src/images.jpg' },
-    { id: 3, name: 'Classic Taho', price: 20, image: 'src/images.jpg' }
+    { id: 1, name: 'Strawberry Taho', price: 20, image: 'images.jpg' },
+    { id: 2, name: 'Mango Taho', price: 20, image: 'images.jpg' },
+    { id: 3, name: 'Classic Taho', price: 20, image: 'images.jpg' }
 ];
 
 // Initialize an empty cart
